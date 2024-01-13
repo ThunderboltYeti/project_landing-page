@@ -24,15 +24,16 @@ body {
 .section1 {
   padding-top: 3%;
   width: 80%;
-  padding-right: 15%;
-  padding-left: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
   padding-bottom: 3%;
 }
 
 .headerLogo {
-  font-weight: 900;
-  padding-left: 50px;
-  font-size: 48px;
+  font-weight: 700;
+  padding-left: 10%;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .links {
@@ -49,9 +50,13 @@ body {
 
 .hl {
   text-decoration: none;
-  color: rgb(255, 255, 255);
 }
 
+.hl,
+.s1h4 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
 .section1 {
   display: flex;
   flex-direction: row;
@@ -61,7 +66,7 @@ body {
 }
 
 .s1Text {
-  width: 300px;
+  width: 450px;
   height: 255px;
 }
 
@@ -73,7 +78,6 @@ body {
   border-radius: 10px;
   width: 255px;
   height: 255px;
-  margin-right: 35%;
 }
 
 .s1img {
@@ -83,17 +87,19 @@ body {
 }
 
 .s1h1 {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 48px;
   padding-bottom: 20px;
+  color: #f9faf8;
 }
 
 .s2h1 {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 .b1container {
@@ -102,7 +108,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: white;
   border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
@@ -117,14 +123,14 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 5px;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid #3882f6;
   transition: 0.5s;
 }
 
 .s2boximg:hover {
   width: 250px;
   height: 250px;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid #3882f6;
 }
 
 .boxes {
@@ -144,7 +150,7 @@ body {
 
 .s3h3 {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: light;
   font-style: italic;
   color: #1f2937;
@@ -163,7 +169,7 @@ body {
   min-height: 100px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #3881f6;
+  background-color: #3882f6;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -182,20 +188,31 @@ body {
   margin-left: 20px;
 }
 
+.s1btn,
 .s4btn {
-  width: 120px;
-  height: 50px;
-  background-color: rgb(255, 36, 36);
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
   border: 1.5px solid rgb(255, 255, 255);
   border-radius: 3px;
   font-weight: 900;
   color: rgb(255, 255, 255);
+}
+
+.s1btn {
+  border: 1.5px solid #3882f6;
+  margin-top: 20px;
+}
+
+.s4btn {
+  border: 1.5px solid white;
   margin-right: 10px;
 }
 
+.s1btn:hover,
 .s4btn:hover {
   cursor: pointer;
-  background-color: red;
+  background-color: #478eff;
 }
 
 .footer {
